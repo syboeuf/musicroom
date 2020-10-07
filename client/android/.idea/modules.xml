@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2138217825/@react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-2138217825/@react-native-community_async-storage.iml" group="client/@react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1011201518/@react-native-community_checkbox.iml" filepath="$PROJECT_DIR$/.idea/modules/1011201518/@react-native-community_checkbox.iml" group="client/@react-native-community_checkbox" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="client/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2138217825/react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-2138217825/react-native-community_async-storage.iml" group="client/react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1011201518/react-native-community_checkbox.iml" filepath="$PROJECT_DIR$/.idea/modules/1011201518/react-native-community_checkbox.iml" group="client/react-native-community_checkbox" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1346081868/react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1346081868/react-native-community_datetimepicker.iml" group="client/react-native-community_datetimepicker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-356459172/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-356459172/react-native-community_masked-view.iml" group="client/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1845163060/react-native-community_slider.iml" filepath="$PROJECT_DIR$/.idea/modules/-1845163060/react-native-community_slider.iml" group="client/react-native-community_slider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-816762973/react-native-geolocation-service.iml" filepath="$PROJECT_DIR$/.idea/modules/-816762973/react-native-geolocation-service.iml" group="client/react-native-geolocation-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1378678523/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1378678523/react-native-gesture-handler.iml" group="client/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1782586312/react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/-1782586312/react-native-maps.iml" group="client/react-native-maps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1458440639/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1458440639/react-native-reanimated.iml" group="client/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1583465308/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1583465308/react-native-safe-area-context.iml" group="client/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-370244/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-370244/react-native-screens.iml" group="client/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-769868156/react-native-sound.iml" filepath="$PROJECT_DIR$/.idea/modules/-769868156/react-native-sound.iml" group="client/react-native-sound" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1290140347/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1290140347/react-native-vector-icons.iml" group="client/react-native-vector-icons" />
+    </modules>
+  </component>
+</project>

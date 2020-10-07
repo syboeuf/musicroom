@@ -1,0 +1,51 @@
+version: '2'
+
+services:
+  api_dev:
+    container_name: ${PROJET_NAME}_api_dev
+    build: ./server/
+    environment:
+      - VIRTUAL_HOST=api.local.${PROJET_NAME}.io
+    volumes : 
+      - ./server/:/usr/src/app:rw
+    restart: always
+    ports:
+      - "80:3000"
+    links:
+      - mongo
+    
+  # app_dev:
+  #   container_name: ${PROJET_NAME}_app_dev
+  #   build: ./client/
+  #   environment:
+  #     - VIRTUAL_HOST=app.local.${PROJET_NAME}.local
+  #   volumes : 
+  #     - ./client/:/usr/src/app:rw
+  #   restart: always
+  #   ports:
+  #     - "5000:19006"
+  #   links:
+  #     - mongo
+  #   command: npm run android
+  #   command: npm start
+  
+  mongo:
+    container_name: ${PROJET_NAME}_mongo_dev
+    image: mongo
+    environment:
+      - VIRTUAL_HOST=mongo.${PROJET_NAME}db.local
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"
+  
+  mongoclient:
+    image: mongoclient/mongoclient:latest
+    container_name: mongoclient
+    hostname: mongoclient
+    environment:
+      - VIRTUAL_HOST=db.${PROJET_NAME}.local
+    depends_on:
+      - mongo
+    ports:
+      - 3300:3000
